@@ -9,7 +9,7 @@ const Employee = () => {
             <Route path="/admin/employees" exact>
                 <List />
             </Route>
-            <Route path="/admin/employees/:employeeId">
+            <Route path="/admin/employees/:employeeId" exact>
                 <Form />
             </Route>
         </Switch>
